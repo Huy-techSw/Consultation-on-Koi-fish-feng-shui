@@ -1,0 +1,51 @@
+{
+  "name": "prn231-fe",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@babel/core": "7.0.0",
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/icons-material": "^6.0.2",
+    "@mui/material": "^6.1.0",
+    "@mui/styled-engine": "^6.1.0",
+    "@mui/styled-engine-sc": "^6.0.2",
+    "@radix-ui/react-dropdown-menu": "^2.1.2",
+    "@radix-ui/react-icons": "^1.3.0",
+    "@radix-ui/react-slot": "^1.1.0",
+    "axios": "^1.7.7",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.11.10",
+    "lucide-react": "^0.441.0",
+    "popper.js": "1.16.1",
+    "prn231-fe": "file:",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.1",
+    "styled-components": "6.0.0",
+    "tailwind-merge": "^2.5.2",
+    "tailwindcss-animate": "^1.0.7",
+    "ui-button": "^2.1.12"
+  },
+  "devDependencies": {
+    "@shadcn/ui": "^0.0.4",
+    "@types/node": "^22.5.4",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.20",
+    "globals": "^15.9.0",
+    "postcss": "^8.4.45",
+    "tailwindcss": "^3.4.11",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.1"
+  }
+}
